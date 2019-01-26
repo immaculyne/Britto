@@ -1,7 +1,7 @@
-n=int(raw_input())
+N=int(raw_input())
 i=1
 summ=0
-while i<=n:
+while i<=N:
 	summ=summ+i
 	i=i+1
 print(summ)	

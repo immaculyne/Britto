@@ -6,6 +6,6 @@ if (N>0):
 	sum=+digit**n
 	x//=10
 if (N==sum):
-	print("amstrong")
+	print("yes")
 else:
-	print("Not")
+	print("no")

@@ -1,11 +1,11 @@
 N=int(raw_input())
-n=len(str(x))
+k=N
 sum=0
 if (N>0):
 	digit=x%10
-	sum=+digit**n
+	sum=+digit**3
 	x//=10
-if (N==sum):
+if (k==sum):
 	print("yes")
 else:
 	print("no")

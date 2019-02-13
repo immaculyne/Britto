@@ -10,5 +10,5 @@ for num in range(x,n+1):
        temp //= 10
 
    if num == sum:
-       print(num)
+       print(num,end" ")
 
